@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 脚本使用命令行参数输入变量，其中手机号和密码的32位MD5值为必填字段，其余均为可选字段。
 
-```shell
+```shell.
 # python action.py -h 查看usage
 usage: action.py [-h] [-s SCKEY] [-l [PLAYLIST [PLAYLIST ...]]] phone password
 
